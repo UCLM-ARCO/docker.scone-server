@@ -1,4 +1,4 @@
-# source for: https://github.com/UCLM-ARCO/scone-server/packages/767871
+# source for: https://hub.docker.com/repository/docker/arco/scone-server
 
 FROM debian:buster
 LABEL maintainer="David Villa <David.Villa@gmail.com>"

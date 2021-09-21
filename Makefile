@@ -3,7 +3,7 @@ PORT=6517
 IMAGE=arco/scone-server:latest
 
 scone-start:
-	docker rm scone-server
+	docker rm -f scone-server
 	rm -f .scone/server.pid
 	docker run -d --name scone-server -v $$PWD:/app -p ${PORT}:${PORT} -u $(shell id -u) ${IMAGE}
 
