@@ -1,4 +1,4 @@
-this is an example of using scone-server with docker image.
+This is an example of using [scone-server](https://github.com/UCLM-ARCO/scone-server) with docker image.
 
 To start docker container:
 
